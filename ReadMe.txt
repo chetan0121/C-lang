@@ -1,1 +1,0 @@
-This C program calculates the difference between two dates, optionally including time. Users can input dates manually or autofill the current date/time by just entering a Character. It validates all entries, supports leap years, and outputs the result in multiple formats: years, months, days, hours, and minutes. Ideal for age or duration calculation tasks.
