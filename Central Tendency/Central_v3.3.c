@@ -867,7 +867,7 @@ int findMode(int n, float ClassInterval[][2], float fi[], float xi[], int Method
         ans = xi[imax];
     }
     else if(MethodType==3){
-        int i, j, len=0, imax=0;
+        short int i, j, len=0, imax=0;
         float value[n];
         int count[n];
         printf("\n\n<-- Mode for Raw data -->");
@@ -901,7 +901,7 @@ int findMode(int n, float ClassInterval[][2], float fi[], float xi[], int Method
             }
         }
 
-        if(countMax(count, len, &imax)==1){
+        if(countMax((float*)count, len, &imax)==1){
             return 1;
         }
 
