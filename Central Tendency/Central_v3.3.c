@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define tableMode 1     // 1 = On , 0 = Off.....It is advisable to turn off if running on Smartphone
+#define tableMode 1     // 1 = On , 0 = Off.....It is recommended to turn off if using Smartphone
 
 /* Other meanings :
    CTtype = Central tendency type
