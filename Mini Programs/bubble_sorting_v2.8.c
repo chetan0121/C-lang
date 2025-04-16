@@ -7,7 +7,7 @@ void sorting(float *no, int len, short int opt);
 int main()
 {
     int i, n=0, lmt=1;
-    short int opt;
+    int opt;
 
     float *ptr = (float*) malloc(lmt*sizeof(float));
     
