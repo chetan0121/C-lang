@@ -4,8 +4,8 @@ int gcd_finder(int a, int b);
 
 int main()
 {
-    int a, b, no[4];
-    int i=0, gcd=0, count=0, n=0;
+    int a, b, no[3];
+    int i=0, gcd=0, count=0, index=0;
     char comma;
     
     printf("\n-----: GCD FINDER :-----");
@@ -38,7 +38,7 @@ int main()
          }
          if(no[i]<=0){
              end:
-             printf("\nInvalid input! Use only Natural numbers.");
+             printf("\n*Invalid input! Use only Natural numbers.");
              return 1;
          }
     }
@@ -47,23 +47,23 @@ int main()
         restart:
         count = -1;
         no[3] = gcd;
-        n = 2;
+        index = 2;
     } 
     
-    if(no[n] <= no[n+1]) {
-        a = no[n+1];
-        b = no[n];
+    if(no[index] < no[index+1]) {
+        a = no[index+1];
+        b = no[index];
     }
     else {
-        a = no[n];
-        b = no[n+1];
+        a = no[index];
+        b = no[index+1];
     }
     
     
-    printf("\nGCD process for %d and %d :",a,b);
+    printf("\nGCD process for %d and %d :", a, b);
     
     gcd = gcd_finder(a, b);
-    printf("\n\n--> GCD(%d,%d) = %d\n",no[0], no[1], gcd);
+    printf("\n\n--> GCD(%d,%d) = %d\n",no[index], no[index+1], gcd);
     
     if(count == 2){
         goto restart;
