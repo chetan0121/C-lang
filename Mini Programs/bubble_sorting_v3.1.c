@@ -6,7 +6,7 @@ void sorting(float *no, int len, short int opt);
 
 int main()
 {
-    int i, n=0, lmt=2;
+    int i, n=0, lmt=4;
     int opt;
 
     float *ptr = (float*) malloc(lmt*sizeof(float));
