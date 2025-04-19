@@ -2,8 +2,8 @@
 
 A C program to calculate *Mean, Median, and Mode* for: 
 ✔ Grouped data (class intervals)  
-✔ Ungrouped data (with/without frequencies)  
-✔ Raw data  
+✔ Ungrouped data (with frequencies)  
+✔ Raw data (without frequencies)
 
 **Features:**  
 - Smart auto-method selection  
@@ -17,4 +17,4 @@ A C program to calculate *Mean, Median, and Mode* for:
 2. Choose an option (Mean/Median/Mode)  
 3. Enter data & get results  
 
-Compile with any C compiler (e.g., `gcc`).
+Compile with any C compiler (e.g., `gcc`), OR any online compiler (e.g. Programiz).
