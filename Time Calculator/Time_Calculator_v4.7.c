@@ -17,7 +17,7 @@ int main()
 {
     Ptime();
 
-    short int calcuTime = askTime();   //if 1 then find only days, if 2 then calculate it with time also.
+    int calcuTime = askTime();   //if 1 then find only days, if 2 then calculate it with time also.
     int hour[2]= {0};
     int min[2]= {0};
 
@@ -182,7 +182,7 @@ void Ptime() {  //The only thing done by the help of Ai
 }
 
 int askTime(){      //Ask user, what type of calculation needed
-    short int opt=0;
+    int opt=0;
 
     printf("\n\nChoose your options :");
     printf("\n1. Normal (only days)");
