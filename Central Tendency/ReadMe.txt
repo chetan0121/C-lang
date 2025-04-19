@@ -10,7 +10,7 @@ A C program to calculate *Mean, Median, and Mode* for:
 - Step-by-step solutions
 - Clean tabular output
 
-**Note:** *No AI was used — 100% manual coding.*  
+*Note: No AI was used for coding — 100% manual coding.  
 
 **Usage:**  
 1. Run the program  
