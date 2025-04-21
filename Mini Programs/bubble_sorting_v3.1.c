@@ -12,7 +12,7 @@ int main()
     float *ptr = (float*) malloc(lmt*sizeof(float));
     
     printf("\n------< BUBBLE SORTING >------");
-    printf("\n*you can any character to end the program!\n");
+    printf("\n*you can enter any character to end the program!\n");
     printf("\nEnter no%2d =>",n+1);
     
     while(scanf("%f",&ptr[n])==1)
