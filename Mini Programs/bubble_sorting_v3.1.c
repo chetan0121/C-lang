@@ -19,7 +19,7 @@ int main()
     {   
         n++;
         if(n == lmt) {
-            lmt*=2;
+            lmt = lmt + (lmt/2); //Grows 50% of the last limit
             ptr = realloc(ptr, sizeof(float)*lmt);
             // printf("\n-- N=%d, lmt=%d --\n", n, lmt);
         }
