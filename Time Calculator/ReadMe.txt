@@ -21,3 +21,4 @@ OR 37371 Hours and 55 Minutes
 ```  
 
 Ideal for age calculators, project timelines, or any date/time difference needs!  
+Note: Total days calculation follows business standard - end date is excluded.
