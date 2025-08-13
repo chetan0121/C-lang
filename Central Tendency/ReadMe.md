@@ -1,7 +1,6 @@
 **README - Central Tendency Calculator**  
 
-A C program to calculate *Mean, Median, and Mode* for: 
-
+A C program to calculate *Mean, Median, and Mode* for:
 ✔ Grouped data (class intervals)  
 ✔ Ungrouped data (with frequencies)  
 ✔ Raw data (without frequencies)
