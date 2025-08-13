@@ -1,5 +1,4 @@
-# < Time Calculator >
-
+#  Time Calculator 
 A C program that calculates the difference between two dates/times and displays the result in multiple formats (years, months, days, hours, minutes).  
 
 ## Key Features :-
