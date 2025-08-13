@@ -1,8 +1,8 @@
--------< Time Calculator >-------
+# -------< Time Calculator >-------
 
 A C program that calculates the difference between two dates/times and displays the result in multiple formats (years, months, days, hours, minutes).  
 
-# Key Features :-
+## Key Features :-
 - ✅ *Two Modes:*  
    - Normal : date only (days, months, years)  
    - Advanced : date+time (includes hours & minutes)  
@@ -12,7 +12,7 @@ A C program that calculates the difference between two dates/times and displays 
 - 📊 Flexible Output: Shows results in multiple units (e.g., "3 Years, 2 Months" or "1168 Hours").  
 
 
-# *Example Output*
+## *Example Output*
 ```
 4 Years, 3 Months, 5 days and 3 Hours  
 OR 51 Months, 5 Days, 3 Hours  
